@@ -25,7 +25,7 @@ namespace v0623
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("高橋涼");
-            timer1.Enabled = false;
+            timer1.Enabled = !timer1.Enabled;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -49,7 +49,7 @@ namespace v0623
                 vy = -10;
             }
             score = score - 1;
-            label2.Text = "Score score";
+            label2.Text = "Score "+ score; 
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
