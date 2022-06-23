@@ -14,7 +14,9 @@ namespace v0623
     {
         int vx = -10;
         int vy = -10;
-            
+        int score = 100;
+
+
         public Form1()
         {
             InitializeComponent();
@@ -46,6 +48,18 @@ namespace v0623
             {
                 vy = -10;
             }
+            score = score - 1;
+            label2.Text = "Score score";
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
