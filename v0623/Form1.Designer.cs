@@ -56,7 +56,7 @@ namespace v0623
             // pictureBox1
             // 
             this.pictureBox1.Image = global::v0623.Properties.Resources.hannba_gu_480;
-            this.pictureBox1.Location = new System.Drawing.Point(382, 411);
+            this.pictureBox1.Location = new System.Drawing.Point(-23, -27);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(846, 596);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
